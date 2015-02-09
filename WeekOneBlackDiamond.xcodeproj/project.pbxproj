@@ -14,6 +14,7 @@
 		83BE23BF1A85785F0026C37A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BE23BE1A85785F0026C37A /* Images.xcassets */; };
 		83BE23C21A85785F0026C37A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83BE23C01A85785F0026C37A /* LaunchScreen.xib */; };
 		83BE23CE1A85785F0026C37A /* WeekOneBlackDiamondTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BE23CD1A85785F0026C37A /* WeekOneBlackDiamondTests.m */; };
+		83BE23D91A8586BD0026C37A /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BE23D81A8586BD0026C37A /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		83BE23C71A85785F0026C37A /* WeekOneBlackDiamondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeekOneBlackDiamondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BE23CC1A85785F0026C37A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83BE23CD1A85785F0026C37A /* WeekOneBlackDiamondTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeekOneBlackDiamondTests.m; sourceTree = "<group>"; };
+		83BE23D71A8586BD0026C37A /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		83BE23D81A8586BD0026C37A /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				83BE23B61A85785F0026C37A /* AppDelegate.m */,
 				83BE23B81A85785F0026C37A /* ViewController.h */,
 				83BE23B91A85785F0026C37A /* ViewController.m */,
+				83BE23D71A8586BD0026C37A /* TableViewCell.h */,
+				83BE23D81A8586BD0026C37A /* TableViewCell.m */,
 				83BE23BB1A85785F0026C37A /* Main.storyboard */,
 				83BE23BE1A85785F0026C37A /* Images.xcassets */,
 				83BE23C01A85785F0026C37A /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83BE23BA1A85785F0026C37A /* ViewController.m in Sources */,
+				83BE23D91A8586BD0026C37A /* TableViewCell.m in Sources */,
 				83BE23B71A85785F0026C37A /* AppDelegate.m in Sources */,
 				83BE23B41A85785F0026C37A /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				83BE23D31A85785F0026C37A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83BE23D41A85785F0026C37A /* Build configuration list for PBXNativeTarget "WeekOneBlackDiamondTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				83BE23D61A85785F0026C37A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

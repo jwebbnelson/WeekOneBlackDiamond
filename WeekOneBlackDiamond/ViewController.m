@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TableViewCell.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -46,7 +47,10 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell =[tableView dequeueReusableCellWithIdentifier:@"cell"];
+    TableViewCell *cell =[tableView dequeueReusableCellWithIdentifier:@"cell"];
+   
+    // Update TableViewCell global selectedIndexPath Property
+    cell.selectedIndexPath = indexPath;
     
     return cell;
 }
